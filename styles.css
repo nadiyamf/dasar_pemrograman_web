@@ -1,0 +1,45 @@
+body {
+    background-color: #e6f5fc;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#urlInput {
+    width: 300px;
+    padding: 10px;
+}
+
+#fetchDataBtn {
+    padding: 10px 20px;
+    margin: 15px;
+    background-color: #5077af;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#dataContainer {
+    margin-top: 20px;
+}
+
+#dataTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#dataTable th, #dataTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#dataTable th {
+    background-color: #f2f2f2;
+}
